@@ -11,6 +11,8 @@ body {
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
@@ -45,4 +47,17 @@ a {
 
 ul {
   list-style-type: none;
+}
+.right{
+  display: flex;
+  align-items: center;
+}
+ul{
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+.left{
+  display: flex;
+  justify-content: left;
 }
